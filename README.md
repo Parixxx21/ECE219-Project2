@@ -1,9 +1,17 @@
-## Environment Requirement
+## Project Structure:
 
-All parts of this notebook are designed to run in **Google Colab**.
+This projet is organized into three parts:
+- **Part 1**: Impemented in `P2.ipynb`
+- **Part 2**: Implemented in `219pset2part2.ipynb`
+- **Part 3**: Implemented in `P2_part3.ipynb`
 
-Please enable GPU in Colab:
-Runtime → Change runtime type → Hardware accelerator → GPU.
+
+## Notes:
+
+- All notebooks are designed to run in **Google Colab**.
+- Please enable GPU in Colab:
+  Runtime → Change runtime type → Hardware accelerator → GPU.
+- Required datasets will be automatically downloaded within each notebook.vPlease refer to the setup instructions in Part 3 for additional configuration details.
 
 
 ## Part 3 Setup instructions (P2_Part3.ipynb):
@@ -27,11 +35,11 @@ No manual download is required.
 
 ### 2. Hugging Face Login (For VLM Reranking)
 - For Question 23 (VLM reranking), a Hugging Face access token is required to download the Qwen-VL model.
-- **1** Generate token
+- **(1)** Generate token
   - Go to `https://huggingface.co/settings/tokens`
   - Create a Read access token
   - Copy the token
-- **2** Insert token
+- **(2)** Insert token
   - Replace the place holder
   ```python
     HF_TOKEN = "ENTER_YOUR_TOKEN_HERE"
