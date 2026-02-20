@@ -11,7 +11,7 @@ This projet is organized into three parts:
 - All notebooks are designed to run in **Google Colab**.
 - Please enable GPU in Colab:
   Runtime → Change runtime type → Hardware accelerator → GPU.
-- Required datasets will be automatically downloaded within each notebook. Please refer to the setup instructions in Part 3 for additional configuration details.
+- Required datasets will be automatically downloaded within each notebook.vPlease refer to the setup instructions in Part 3 for additional configuration details.
 
 
 ## Part 3 Setup instructions (P2_Part3.ipynb):
